@@ -39,7 +39,7 @@ class CentsInput {
     const numbers = `${leftJoin}${this.separator}${decimalJoin}`;
 
     this.formatted = `${this.prefix}${numbers}`;
-    this.float = parseFloat(numbersg.replace(",", "."));
+    this.float = parseFloat(numbers.replace(",", "."));
   }
 
   getFormatted() {

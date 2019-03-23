@@ -1,6 +1,6 @@
 {
   "name": "cents-input",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Handle money with cents input when it must start filling from decimal part.",
   "main": "index.js",
   "scripts": {
