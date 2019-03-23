@@ -36,9 +36,10 @@ class CentsInput {
     const decimal = localDigits.splice(-2);
     const leftJoin = localDigits.join('');
     const decimalJoin = decimal.join('');
+    const numbers = `${leftJoin}${this.separator}${decimalJoin}`;
 
-    this.formatted = `${this.prefix}${leftJoin}${this.separator}${decimalJoin}`;
-    this.float = parseFloat(this.formatted.replace(",", "."));
+    this.formatted = `${this.prefix}${numbers}`;
+    this.float = parseFloat(numbersg.replace(",", "."));
   }
 
   getFormatted() {
