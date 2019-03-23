@@ -35,7 +35,7 @@ You can set a prefix and separator as options:
 ```javascript
 const instance = new CentsInput({
   prefix: 'R$ ', // default is empty
-  separator: '.',  // default is dot
+  separator: '.',  // default is comma
 });
 ```
 

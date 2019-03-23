@@ -1,7 +1,7 @@
 {
   "name": "cents-input",
-  "version": "1.0.0",
-  "description": "Handle money with cents input when it must starts filling from decimal part.",
+  "version": "1.0.1",
+  "description": "Handle money with cents input when it must start filling from decimal part.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
