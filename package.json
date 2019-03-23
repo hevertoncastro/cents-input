@@ -1,0 +1,29 @@
+{
+  "name": "cents-input",
+  "version": "1.0.0",
+  "description": "Handle money with cents input when it must starts filling from decimal part.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hevertoncastro/cents-input.git"
+  },
+  "keywords": [
+    "decimal",
+    "input",
+    "cents",
+    "money",
+    "brazilian",
+    "money",
+    "french",
+    "money"
+  ],
+  "author": "Heverton Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hevertoncastro/cents-input/issues"
+  },
+  "homepage": "https://github.com/hevertoncastro/cents-input#readme"
+}
