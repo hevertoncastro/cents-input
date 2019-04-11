@@ -49,6 +49,12 @@ class CentsInput {
   getFloat() {
     return this.float;
   }
+
+  reset() {
+    this.digits = [0, 0, 0];
+    this.formatted = null;
+    this.float = null;
+  }
 }
 
 module.exports = CentsInput;

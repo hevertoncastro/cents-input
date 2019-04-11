@@ -67,3 +67,9 @@ instance.getFormatted();
 instance.getFloat();
 ```
 > Return the float value, without the prefix.
+
+
+```javascript
+instance.reset();
+```
+> Reset the value.
