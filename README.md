@@ -10,9 +10,15 @@ Example:
 
 ### **How to use it**
 
-First, install `cents-input` package:
+First, install [`cents-input`](https://www.npmjs.com/package/cents-input) package:
 
-`npm i cents-input`
+```
+npm install cents-input
+
+         or
+
+yarn add cents-input
+```
 
 Then import it in your project:
 
